@@ -1,0 +1,56 @@
+CRITICAL - 2022-05-04 12:06:39 --> The action you requested is not allowed.
+#0 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Security/Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/contact-query', 'before')
+#4 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home4/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 12:06:49 --> The action you requested is not allowed.
+#0 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Security/Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/contact-query', 'before')
+#4 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home4/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 12:07:15 --> The action you requested is not allowed.
+#0 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Security/Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/contact-query', 'before')
+#4 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home4/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 12:07:24 --> The action you requested is not allowed.
+#0 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Security/Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/contact-query', 'before')
+#4 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home4/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 12:07:25 --> The action you requested is not allowed.
+#0 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Security/Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/contact-query', 'before')
+#4 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home4/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 12:07:43 --> The action you requested is not allowed.
+#0 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Security/Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/contact-query', 'before')
+#4 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home4/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 12:07:46 --> The action you requested is not allowed.
+#0 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Security/Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/contact-query', 'before')
+#4 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home4/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

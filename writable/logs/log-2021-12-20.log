@@ -1,0 +1,11 @@
+ERROR - 2021-12-20 22:48:59 --> Table 'gnecmedi_paypal.tbl_paypal' doesn't exist
+ERROR - 2021-12-20 22:49:31 --> Table 'gnecmedi_paypal.tbl_paypal' doesn't exist
+CRITICAL - 2021-12-20 22:49:31 --> Call to a member function getFirstRow() on bool
+#0 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 /home4/gnecmedia/public_html/app/Models/PaymentModel.php(38): CodeIgniter\BaseModel->first()
+#2 /home4/gnecmedia/public_html/app/Controllers/Payment.php(155): App\Models\PaymentModel->getRecordById('')
+#3 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Payment->cancel()
+#4 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#5 /home4/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home4/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

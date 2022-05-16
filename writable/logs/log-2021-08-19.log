@@ -1,0 +1,14 @@
+CRITICAL - 2021-08-19 02:49:33 -->  route cannot be found while reverse-routing.
+#0 /home/gnecmedia/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/gnecmedia/vendor/codeigniter4/framework/system/Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/gnecmedia/app/Views/index.php(27): redirect('https://.gnecme...', 'refresh')
+#3 /home/gnecmedia/vendor/codeigniter4/framework/system/View/View.php(230): include('/home/gnecmedia...')
+#4 /home/gnecmedia/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/gnecmedia/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#6 /home/gnecmedia/app/Controllers/AppBase.php(14): view('index', Array)
+#7 /home/gnecmedia/app/Controllers/Home.php(587): App\Controllers\AppBase->layout()
+#8 /home/gnecmedia/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Home->bulkSmsService()
+#9 /home/gnecmedia/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 /home/gnecmedia/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

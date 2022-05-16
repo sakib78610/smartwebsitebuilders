@@ -1,0 +1,14 @@
+CRITICAL - 2021-09-15 14:17:38 --> A non-numeric value encountered
+#0 /home3/gnecmedia/public_html/app/Controllers/Home.php(1784): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home3/gnecmedi...', 1784, Array)
+#1 /home3/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Home->promotion()
+#2 /home3/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-15 14:23:50 --> A non-numeric value encountered
+#0 /home3/gnecmedia/public_html/app/Controllers/Home.php(1784): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home3/gnecmedi...', 1784, Array)
+#1 /home3/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Home->promotion()
+#2 /home3/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/gnecmedia/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/gnecmedia/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
